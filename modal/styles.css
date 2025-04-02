@@ -1,0 +1,57 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url(./background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#openModal {
+  margin: 2rem;
+  background-color: teal;
+  color: whitesmoke;
+  padding: 0.5rem 1rem;
+  border: none;
+  box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+#openModal:hover {
+  background-color: darkslategray;
+}
+
+.modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal_overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_content {
+  background-color: whitesmoke;
+  padding: 4rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.modal.open {
+  display: flex;
+}
