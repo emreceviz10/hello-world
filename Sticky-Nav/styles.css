@@ -1,0 +1,36 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav {
+  position: relative;
+  width: 40%;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  padding: 0.5rem;
+}
+
+nav ul a {
+  padding: 0.5rem;
+  text-decoration: none;
+  text-wrap: nowrap;
+}
+
+nav,
+h2,
+p {
+  margin-top: 2rem;
+}
